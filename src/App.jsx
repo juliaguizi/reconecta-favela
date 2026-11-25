@@ -1031,6 +1031,7 @@ function SlideCompetitividade() {
         <p>Análise estratégica · Matriz SWOT + VRIO</p>
       </header>
 
+      <div className="comp-analises">
       <div className="swot-grid">
         <article className="swot-card swot-forcas">
           <span className="swot-letra">S</span>
@@ -1072,6 +1073,7 @@ function SlideCompetitividade() {
           </ul>
         </article>
       </div>
+      
 
       <div className="comp-vrio">
         <div className="comp-vrio-titulo">
@@ -1113,6 +1115,8 @@ function SlideCompetitividade() {
           </article>
         </div>
       </div>
+    </div>
+      
 
       <div className="comp-defesa">
         <span>VANTAGEM COMPETITIVA</span>
@@ -1137,39 +1141,43 @@ function SlideValidacao() {
         <span className="valid-selo">
           RECONecta · VALIDAÇÃO
         </span>
-        <h1>Ouvir também é inovar.</h1>
+        <h1>Ouvir&#8203; também é inovar.</h1>  
         <p>Experimentação e testes · Diamante Duplo</p>
       </header>
-
-      <div className="valid-resultado">
+      
+        <div className="valid-resultado">
         <div className="valid-numero">
           <strong>05</strong>
-          <span>USUÁRIOS TESTADOS</span>
+          <span>TESTES APLICADOS</span>
+
+          <ul>
+            <li>Participantes avaliaram o aplicativo.</li>
+            <li>Maioria considerou fácil de usar.</li>
+            <li>Sugeriram atendimento por telefone.</li>
+            <li>Apontaram a necessidade de mais acessibilidade.</li>
+          </ul>
         </div>
 
         <div className="valid-feedback">
-          <span className="valid-tag">FEEDBACK POSITIVO</span>
-          <h2>Fácil de usar e interessante!</h2>
+          <span className="valid-tag">APRENDIZADO DE CAMPO</span>
+
+          <strong>❌ Suposição inicial da equipe</strong>
           <p>
-            A maioria dos participantes considerou
-            o aplicativo simples e fácil de utilizar.
+            Todos os moradores conseguiriam utilizar o
+            aplicativo para registrar e acompanhar ocorrências.
+          </p>
+
+          <span className="valid-divisor">
+            ↓ O QUE OS TESTES REVELARAM ↓
+          </span>
+
+          <strong>✅ O que os usuários ensinaram</strong>
+          <p>
+            Nem todos têm facilidade com ferramentas digitais,
+            principalmente moradores idosos. Por isso, propomos
+            atendimento telefônico e melhorias na acessibilidade.
           </p>
         </div>
-      </div>
-
-      <div className="valid-descoberta">
-        <div className="valid-descoberta-topo">
-          <span>01 · A DESCOBERTA</span>
-          <span>FEEDBACK DOS USUÁRIOS</span>
-        </div>
-
-        <h2>Nem todos conseguem acessar o digital.</h2>
-        <p>
-          Surgiu a sugestão de disponibilizar um
-          contato telefônico, principalmente para
-          moradores idosos com dificuldade no uso
-          de aplicativos.
-        </p>
       </div>
 
       <div className="valid-evolucao">
@@ -1180,29 +1188,39 @@ function SlideValidacao() {
             <span>01</span>
             <strong>Atendimento híbrido</strong>
             <p>Aplicativo e possibilidade de contato telefônico.</p>
-          </article>
+         </article>
 
-          <article>
-            <span>02</span>
-            <strong>Acessibilidade</strong>
-            <p>Letras maiores, botões simples e linguagem clara.</p>
-          </article>
+        <article>
+          <span>02</span>
+          <strong>Acessibilidade</strong>
+          <p>Letras maiores, botões simples e linguagem clara.</p>
+        </article>
 
-          <article>
-            <span>03</span>
-            <strong>Transparência</strong>
-            <p>Acompanhamento fácil do status das ocorrências.</p>
-          </article>
-        </div>
+        <article>
+          <span>03</span>
+          <strong>Transparência</strong>
+          <p>Acompanhamento fácil do status das ocorrências.</p>
+        </article>
       </div>
 
-      <footer className="valid-footer">
-        Aprendizado do teste: a tecnologia precisa ser acessível a todos.
-        <small>Melhorias propostas a partir dos testes realizados.</small>
-      </footer>
+      <div className="valid-maturidade">
+        <span>MATURIDADE EXECUTIVA</span>
+        <p>
+          Uma solução madura reconhece as dificuldades,
+          ouve a comunidade e transforma o feedback em
+          melhorias reais.
+        </p>
+      </div>
+    </div>
+
+    <footer className="valid-footer">
+      Aprendizado do teste: a tecnologia precisa ser acessível a todos.
+      <small>Melhorias propostas a partir dos testes realizados.</small>
+    </footer>
     </section>
   );
 }
+
 
 function SlideRoadmap() {
   return (
